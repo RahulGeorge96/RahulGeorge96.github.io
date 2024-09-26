@@ -234,7 +234,7 @@ export default function Contact(props) {
         <Link
           href="https://github.com/RahulGeorge96"
           _hover={{
-            color: "#A3E900",
+            color: "rgb(39, 116, 232)",
           }}
         >
           <AiFillGithub />
@@ -245,7 +245,7 @@ export default function Contact(props) {
           mt="10px"
           mb="5px"
           _hover={{
-            color: "#A3E900",
+            color: "rgb(39, 116, 232)",
           }}
         >
           <Link href="https://www.linkedin.com/in/rahul-jithu/">
@@ -256,7 +256,7 @@ export default function Contact(props) {
         <Link
           href="mailto:rahuljithu911@gmail.com"
           _hover={{
-            color: "#A3E900",
+            color: "rgb(39, 116, 232)",
           }}
         >
           <AiOutlineMail />

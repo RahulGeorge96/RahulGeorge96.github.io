@@ -46,7 +46,7 @@ export default function Profile(props) {
                 className={style.run}
                 fontSize={["20px", "20px", "35px"]}
               >
-                <span>I</span>'m<span> Full Stack Developer</span>
+                <span>I</span>'m<span> Full Stack Web Developer</span>
               </Heading>
             </Box>
             <Button

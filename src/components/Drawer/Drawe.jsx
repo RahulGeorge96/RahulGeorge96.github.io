@@ -93,7 +93,7 @@ export function Draw(prop) {
               >
                 CONTACT
               </Text>
-              <a href="https://drive.google.com/file/d/12Gd7HGtrqxOvIYEdPkASSUA4ZEc38R8Q/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1oflL0__xpX01hLnyVjYkhU5upvfDs8oX/view?usp=sharing">
                 <Text
                   mt="20px"
                   fontSize="35px"

@@ -64,7 +64,12 @@ function handleExperinceClick() {
       <Box position="sticky" top="0" left="0" style={bg} zIndex="1000">
         <Box display="flex" alignItems="center" justifyContent="space-between">
           <NavLink to="/">
-            <Box w="20%" display="flex" mt="10px" fontFamily="cursive">
+            <Box
+              w="20%"
+              display="flex"
+              mt="10px"
+              style={{ fontFamily: "'Courgette', cursive" }}
+            >
               <Text fontSize="3xl" fontWeight="bold" ml="20px">
                 RAHUL
               </Text>

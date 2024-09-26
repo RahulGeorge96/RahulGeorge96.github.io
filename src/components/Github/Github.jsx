@@ -21,7 +21,7 @@ const GitHub = () => {
 
   return (
     <div>
-      <Text mt="6%">GITHUB STATS</Text>
+      <Text mt="6%" mb="1%">GITHUB STATS</Text>
       <Box
         w={["100%", "100%", "65%"]}
         style={github}
