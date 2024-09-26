@@ -51,8 +51,7 @@ export default function About(props) {
                 that enhance user experiences.
               </ListItem>
               <ListItem className={style.listitem} data-aos="fade-up-right">
-                <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />I am
-                With a strong foundation in JavaScript, HTML, CSS, and React, I
+                <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />I have a strong foundation in JavaScript, HTML, CSS, and React, I
                 have completed over 1000 hours of hands-on coding practice,
                 preparing me to tackle complex challenges in web development.
               </ListItem>
