@@ -176,9 +176,10 @@ const Projects = (props) => {
             mt={2}
             textAlign={"left"}
           >
-            Zepto is a fast and efficient grocery delivery website that allows
-            users to order fresh groceries and essentials with quick delivery
-            times and a simple, user-friendly interface.
+            Zepto is a quick and easy grocery delivery service that allows users
+            to order fresh groceries and everyday essentials with just a few
+            clicks. With a focus on fast delivery and a simple interface, it
+            makes online shopping convenient and efficient.
           </Text>
           <Text mt={2} textAlign={"left"} fontSize={["14px", "14px", "17px"]}>
             <b> Group Project: </b>| 4 Collaborators | <b>Duration: </b> 05 Days
