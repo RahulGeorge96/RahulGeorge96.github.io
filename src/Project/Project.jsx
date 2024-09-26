@@ -176,9 +176,9 @@ const Projects = (props) => {
             mt={2}
             textAlign={"left"}
           >
-            This website is a clone of "Clockify". Clockify is a time tracker
-            and timesheet app that lets you track work hours across projects.
-            Unlimited users, free forever.
+            Zepto is a fast and efficient grocery delivery website that allows
+            users to order fresh groceries and essentials with quick delivery
+            times and a simple, user-friendly interface.
           </Text>
           <Text mt={2} textAlign={"left"} fontSize={["14px", "14px", "17px"]}>
             <b> Group Project: </b>| 4 Collaborators | <b>Duration: </b> 05 Days
