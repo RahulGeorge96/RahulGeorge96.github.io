@@ -23,7 +23,7 @@ const Projects = (props) => {
   return (
     <Box className="mainDiv" mt={["20%", "20%", "10%"]} ref={project}>
       <Heading fontSize={40} ml={["20%", "25%", "40%"]}>
-        <span style={{ color: "white" }}>Projects</span>
+        <span >Projects</span>
       </Heading>
       <SimpleGrid
         m={"auto"}
