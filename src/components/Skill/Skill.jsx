@@ -52,13 +52,13 @@ export default function Skill(props) {
   ];
   return (
     <>
-      <Box m="auto" mt="20%" ref={Skills}>
+      <Box m="auto" mt="10%" ref={Skills}>
         <Box display="flex">
           {/* <Heading ml={["20%", "20%", "40%"]}>My</Heading>
           <Heading ml={["0.6%"]} >
             Technical
           </Heading> */}
-          <Heading ml={["20%", "20%", "40%"]}>Skills</Heading>
+          <Heading ml={["20%", "20%", "40%"]} mt="5%">Skills</Heading>
         </Box>
         {/* </marquee> */}
         <Box w="90%" m="auto" mt="6%">
@@ -68,7 +68,7 @@ export default function Skill(props) {
                 w="90%"
                 cursor="pointer"
                 textAlign="center"
-                data-aos="fade-down"
+                 data-aos="slide"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
                 key={elem.id}

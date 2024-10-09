@@ -69,15 +69,15 @@ export default function Contact(props) {
   }, []);
   return (
     <>
-      <Box mt={["15%", "15%", "12%"]} ref={contact}>
+      <Box mt={["10%", "10%", "5%"]} ref={contact}>
         <Box display="flex">
-          <Heading ml={["20%", "24%", "40%"]}>Contact</Heading>
+          <Heading ml={["20%", "24%", "40%"]} mt="5%" >Contact</Heading>
           {/* <Heading ml="2%" color="#A3E900">
             In
           </Heading> */}
           {/* <Heading ml="0.9%">Touch</Heading> */}
         </Box>
-        <SimpleGrid columns={[1, 1, 2]} spacing={10} w="80%" m="auto" mt="5%">
+        <SimpleGrid columns={[1, 1, 2]} spacing={10} w="80%" m="auto" mt="-2%">
           <Box data-aos="zoom-in-down">
             <Image
               boxSize={["250px", "380", "450"]}
@@ -98,7 +98,7 @@ export default function Contact(props) {
                   p={"0"}
                   pl={[1, 1, 0, 3]}
                   pr={[1, 1, 0, 3]}
-                  data-aos="fade-right"
+                  // data-aos="fade-right"
                   transition="all .4s ease-in-out"
                   _hover={{
                     transform: "scale(1.1)",
@@ -119,13 +119,13 @@ export default function Contact(props) {
                   p={"0"}
                   pl={[1, 1, 0, 3]}
                   pr={[1, 1, 0, 3]}
-                  data-aos="fade-right"
-                  transition="all .4s ease-in-out"
-                  _hover={{
-                    transform: "scale(1.1)",
-                    bg: "#ffff",
-                    color: "#4db946",
-                  }}
+                  // data-aos="fade-right"
+                  // transition="all .4s ease-in-out"
+                  // _hover={{
+                  //   transform: "scale(1.1)",
+                  //   bg: "#ffff",
+                  //   color: "#4db946",
+                  // }}
                 >
                   <a href="https://www.linkedin.com/in/rahul-jithu/">
                     LinkedIn
@@ -142,13 +142,13 @@ export default function Contact(props) {
                   p={"0"}
                   pl={[1, 1, 0, 3]}
                   pr={[1, 1, 0, 3]}
-                  data-aos="fade-right"
-                  transition="all .4s ease-in-out"
-                  _hover={{
-                    transform: "scale(1.1)",
-                    bg: "rgb(39, 116, 232)",
-                    color: "#4db946",
-                  }}
+                  // data-aos="fade-right"
+                  // transition="all .4s ease-in-out"
+                  // _hover={{
+                  //   transform: "scale(1.1)",
+                  //   bg: "rgb(39, 116, 232)",
+                  //   color: "#4db946",
+                  // }}
                 >
                   <a href="mailto:rahuljithu911@gmail.com">Gmail</a>
                   <AiOutlineMail />
@@ -164,13 +164,13 @@ export default function Contact(props) {
                     p={"0"}
                     pl={[1, 1, 0, 3]}
                     pr={[1, 1, 0, 3]}
-                    data-aos="fade-right"
-                    transition="all .4s ease-in-out"
-                    _hover={{
-                      transform: "scale(1.1)",
-                      bg: "rgb(39, 116, 232)",
-                      color: "#4db946",
-                    }}
+                    // data-aos="fade-right"
+                    // transition="all .4s ease-in-out"
+                    // _hover={{
+                    //   transform: "scale(1.1)",
+                    //   bg: "rgb(39, 116, 232)",
+                    //   color: "#4db946",
+                    // }}
                   >
                     {" "}
                     <AiFillPhone
@@ -181,7 +181,7 @@ export default function Contact(props) {
               </Box>
             </Box>
             <Box
-              data-aos="fade-down"
+              // data-aos="fade-down"
               mt="10px"
               //   data-aos-anchor-placement="bottom-bottom"
             >

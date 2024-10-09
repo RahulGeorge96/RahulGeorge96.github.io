@@ -12,7 +12,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { BsEggFried } from "react-icons/bs";
 import { Draw } from "../components/Drawer/Drawe";
-import GitHub from "../components/Github/Github";
+// import GitHub from "../components/Github/Github";
 // import Timeline from "../components/Experince";
 export default function AllLinks() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -173,7 +173,7 @@ function handleExperinceClick() {
       <About about={about} />
       <Skill Skills={Skills} />
       {/* <Timeline experince={experince}/> */}
-      <GitHub />
+      {/* <GitHub /> */}
       <Projects project={project} />
       <Contact contact={contact} />
     </>

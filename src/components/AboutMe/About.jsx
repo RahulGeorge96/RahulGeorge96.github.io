@@ -17,11 +17,15 @@ export default function About(props) {
   return (
     <>
       <Box mt={["20%", "20%", "8%"]}>
-        <Box display="flex" ref={about}>
+        <Box display="flex" ref={about} mt="15%">
           {/* <Heading ml="40%">All</Heading> */}
           {/* <Heading ml="0.6%">About</Heading> */}
-          <Heading ml="40%">About</Heading>
-          <Heading ml="0.6%">Me</Heading>
+          <Heading ml="40%" mt="5%">
+            About
+          </Heading>
+          <Heading ml="0.6%" mt="5%">
+            Me
+          </Heading>
         </Box>
         <SimpleGrid columns={[1, 1, 2]} m="auto" mt="7%" spacing={-10}>
           <Box>
@@ -32,7 +36,7 @@ export default function About(props) {
               src={ABOUT}
               borderRadius="20% 5% 20% 5%"
               boxSize={["70%", "70%", "80%"]}
-              data-aos="zoom-in"
+              // data-aos="zoom-in"
               // border="5px solid black"
             />
           </Box>
@@ -44,24 +48,33 @@ export default function About(props) {
               mr={["10%", "10%", "20%"]}
               // border="1px solid black"
             >
-              <ListItem className={style.listitem} data-aos="fade-left">
+              <ListItem className={style.listitem} 
+              // data-aos="fade-left"
+              >
                 <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />
                 Hi there! I'm Rahul George, a passionate Full Stack Web
                 Developer dedicated to creating innovative digital solutions
                 that enhance user experiences.
               </ListItem>
-              <ListItem className={style.listitem} data-aos="fade-up-right">
-                <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />I have a strong foundation in JavaScript, HTML, CSS, and React, I
+              <ListItem className={style.listitem} 
+              // data-aos="fade-up-right"
+              >
+                <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />I
+                have a strong foundation in JavaScript, HTML, CSS, and React, I
                 have completed over 1000 hours of hands-on coding practice,
                 preparing me to tackle complex challenges in web development.
               </ListItem>
-              <ListItem className={style.listitem} data-aos="fade-left">
+              <ListItem className={style.listitem} 
+              // data-aos="fade-left"
+              >
                 <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />I
                 thrive on curiosity and the pursuit of knowledge, which drives
                 me to explore new technologies and methodologies in the
                 ever-evolving tech landscape.
               </ListItem>
-              <ListItem className={style.listitem} data-aos="fade-up-right">
+              <ListItem className={style.listitem} 
+              // data-aos="fade-up-right"
+              >
                 <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />
                 Fast Forwarding to today, I built a number of web applications
                 and 4 major projects. Learned a great deal about teamwork,

@@ -23,9 +23,14 @@ export default function Profile(props) {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <Box m="auto" mt="8%" w="90%" ml={["none", "none", "10%"]} ref={home}>
+    <Box m="auto" mt="1%" w="90%" ml={["none", "none", "10%"]} ref={home}>
       <SimpleGrid columns={[1, 1, 2]} spacing="0px">
-        <Box m="10%" ml={["-10px", "none", "none"]} data-aos="fade-right">
+        <Box
+          m="10%"
+          ml={["-10px", "none", "none"]}
+          data-aos="fade-right"
+          mt="20%"
+        >
           <Box className={style.mainBox}>
             <Box display="flex">
               <Text fontSize={["22px", "22px", "42px"]}>Hello,</Text>
@@ -63,14 +68,17 @@ export default function Profile(props) {
             </Button>
           </Box>
         </Box>
-        <Box data-aos="zoom-in">
+        <Box
+        //  data-aos="zoom-in"
+         >
           <Image
-            className={style.floating}
+            // className={style.floating}
             src={image}
             boxSize={["260px", "300", "360px"]}
-            ml="20%"
+            ml="25%"
             borderRadius="16px"
-            transition=" all 3s ease-in-out"
+            // transition=" all 3s ease-in-out"
+            mt="12%"
             // _hover={{
             //   transform: "scale(1.1)",
             // }}
