@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.500dbd9b.css",
-    "main.js": "/static/js/main.1852d837.js",
+    "main.js": "/static/js/main.eeff5471.js",
     "static/media/myntra.png": "/static/media/myntra.c0545dda1e805ed3b339.png",
     "static/media/sephora.png": "/static/media/sephora.28031a0bf7fc8de762bf.png",
     "static/media/zepto.png": "/static/media/zepto.86035868aacc1f33f42c.png",
@@ -33,10 +33,10 @@
     "static/media/materialui.svg": "/static/media/materialui.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
     "main.500dbd9b.css.map": "/static/css/main.500dbd9b.css.map",
-    "main.1852d837.js.map": "/static/js/main.1852d837.js.map"
+    "main.eeff5471.js.map": "/static/js/main.eeff5471.js.map"
   },
   "entrypoints": [
     "static/css/main.500dbd9b.css",
-    "static/js/main.1852d837.js"
+    "static/js/main.eeff5471.js"
   ]
 }
