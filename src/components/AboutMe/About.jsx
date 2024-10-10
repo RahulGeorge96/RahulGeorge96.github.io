@@ -51,7 +51,9 @@ export default function About(props) {
               <ListItem className={style.listitem} 
               // data-aos="fade-left"
               >
-                <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />
+                <ListIcon as={CheckCircleIcon}
+                 color="rgb(39, 116, 232)" 
+                 />
                 Hi there! I'm Rahul George, a passionate Full Stack Web
                 Developer dedicated to creating innovative digital solutions
                 that enhance user experiences.
@@ -60,7 +62,7 @@ export default function About(props) {
               // data-aos="fade-up-right"
               >
                 <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />I
-                have a strong foundation in JavaScript, HTML, CSS, and React, I
+                have a strong foundation in  HTML, CSS, Javascript and React. I
                 have completed over 1000 hours of hands-on coding practice,
                 preparing me to tackle complex challenges in web development.
               </ListItem>
@@ -77,7 +79,7 @@ export default function About(props) {
               >
                 <ListIcon as={CheckCircleIcon} color="rgb(39, 116, 232)" />
                 Fast Forwarding to today, I built a number of web applications
-                and 4 major projects. Learned a great deal about teamwork,
+                and 3 major projects. Learned a great deal about teamwork,
                 leadership, and communication. After months of rigorous
                 training, here I am looking for an opportunity as a full stack
                 web developer.
