@@ -141,7 +141,11 @@ function handleExperinceClick() {
               EXEPERINCE
             </Text> */}
 
-            <a href="https://drive.google.com/file/d/1oflL0__xpX01hLnyVjYkhU5upvfDs8oX/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/1oflL0__xpX01hLnyVjYkhU5upvfDs8oX/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Text
                 fontSize="xl"
                 className={Styles.nav}
