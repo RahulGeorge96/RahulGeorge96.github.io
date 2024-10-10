@@ -40,7 +40,10 @@ const Projects = (props) => {
           pb={"100px"}
         >
           {/* mynta................................ ....................................................................*/}
-          <Box data-aos="zoom-in" borderRadius={10} p={4} boxShadow="dark-lg">
+          <Box 
+          // data-aos="zoom-in" 
+          borderRadius={10} p={4} boxShadow="dark-lg"
+          >
             <Image
               w={"100%"}
               borderRadius={10}
@@ -103,7 +106,10 @@ const Projects = (props) => {
           </Box>
           {/*Sephora................................................................................................... */}
 
-          <Box data-aos="zoom-in" borderRadius={10} p={4} boxShadow="dark-lg">
+          <Box 
+          // data-aos="zoom-in" 
+          borderRadius={10} p={4} boxShadow="dark-lg"
+          >
             <Image
               w={"100%"}
               borderRadius={10}
@@ -165,7 +171,10 @@ const Projects = (props) => {
           </Box>
 
           {/* ..............................Clockify ..........................................*/}
-          <Box data-aos="zoom-in" borderRadius={10} p={4} boxShadow="dark-lg">
+          <Box 
+          // data-aos="zoom-in" 
+          borderRadius={10} p={4} boxShadow="dark-lg"
+          >
             <Image
               w={"100%"}
               borderRadius={10}
