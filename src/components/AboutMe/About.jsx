@@ -27,7 +27,7 @@ export default function About(props) {
             Me
           </Heading>
         </Box>
-        <SimpleGrid columns={[1, 1, 2]} m="auto" mt="7%" spacing={-10}>
+        <SimpleGrid columns={[1, 1, 2]} m="auto" mt="4%" spacing={-10} >
           <Box>
             <Image
               float="right"
