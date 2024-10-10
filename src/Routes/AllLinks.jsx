@@ -142,9 +142,24 @@ function handleExperinceClick() {
             </Text> */}
 
             <a
-              href="https://drive.google.com/file/d/1oflL0__xpX01hLnyVjYkhU5upvfDs8oX/view?usp=sharing"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                // Open the file in a new tab
+                window.open(
+                  "https://drive.google.com/file/d/1oflL0__xpX01hLnyVjYkhU5upvfDs8oX/view",
+                  "_blank"
+                );
+
+                // Create a temporary link element to trigger the download
+                const link = document.createElement("a");
+                link.href =
+                  "https://drive.google.com/uc?export=download&id=1oflL0__xpX01hLnyVjYkhU5upvfDs8oX";
+                link.download = "resume.pdf"; // You can set the downloaded file name
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link); // Remove the temporary link
+              }}
             >
               <Text
                 fontSize="xl"
